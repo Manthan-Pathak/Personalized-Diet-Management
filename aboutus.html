@@ -1,0 +1,135 @@
+{% extends 'home1.html' %}
+{% block body %}
+        <!-- ============== About us Banner starts ============== -->
+        <section class="banner banner-image about-us-banner">
+            <div class="bannerwrap">
+            {% load static %}
+                <figure><img src="{% static 'images/about-us-banner.jpg' %}" alt="Abut us Banner" /></figure>
+            </div>
+        </section>
+        <!-- ============== About us Baner ends ============== -->
+
+        <main> <!-- main content starts -->
+            <!-- ============== About us starts ============== -->
+            <section class="block about-us-block">
+                <div class="container">
+
+                    <!-- == whole about us content wrap starts == -->
+                    <div class="about-us-content">
+                        <div class="text-center top-description wow fadeInUp">
+                            <h2 class="text-sp text-lt">WE ARE NOT JUST A TEAM, WE ARE FAMILY</h2>
+                            <p>We're a small company focused on providing tools and support for people who want to take control over their nutrition. Given the saturation of information in the diet industry, we focus on more pragmatic elements of healthy eating such as planning, shopping and cooking.
+
+This site is the latest part of our ongoing project to make effective nutrition strategies available to everyone, especially people who are too busy to get started on their own. What began as Swole.me, a simple tool to help bodybuilders hit macronutrient requirements created by just Louis, has grown into the current service supported by a small and dedicated team..</p>
+                        </div>
+
+                        <!-- About us image grid block starts -->
+                        <div class="row image-grid-row">
+                            <div class="col-xs-12 col-sm-7 small-image-group wow fadeInLeft">
+                                <div class="row">
+                                    <div class="col-xs-6 col-sm-6 small-image-wrap wow fadeInUp">
+                                        <figure><a href="#"><img class="img-responsive" src="{% static 'images/about-image1.jpg' %}" alt="About Image 1" /></a></figure>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 small-image-wrap wow fadeInUp">
+                                        <figure><a href="#"><img class="img-responsive" src="{% static 'images/about-image2.jpg' %}" alt="About Image 2" /></a></figure>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 small-image-wrap wow fadeInUp">
+                                        <figure><a href="#"><img class="img-responsive" src="{% static 'images/about-image3.jpg' %}" alt="About Image 3" /></a></figure>
+                                    </div>
+                                    <div class="col-xs-6 col-sm-6 small-image-wrap wow fadeInUp">
+                                        <figure><a href="#"><img class="img-responsive" src="{% static 'images/about-image4.jpg' %}" alt="About Image 4" /></a></figure>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-5 big-image wow fadeInRight">
+                                <figure><a href="#"><img class="img-responsive" src="{% static 'images/about-image.jpg' %}" alt="About image" /></a></figure>
+                            </div>
+                        </div>
+                        <!-- About us image gallery block ends -->
+
+                     
+                        <div class="text-center center-btn wow flipInX">
+                            <a href = "http://127.0.0.1:8000/contact/" class="btn border-btn-x-big hvr-wobble-horizontal">contact us</a>
+                        </div>
+                        <!-- 2 columns paragraph ends -->
+
+                    </div>
+                    <!-- == whole about us content wrap starts == -->
+                </div>
+
+                            </section>
+            <!-- ============== About us ends ============== -->
+        </main> <!-- main content ends -->
+
+
+        <!-- ============== footer block starts ============== -->
+        <footer>
+            <div class="top-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 footer-logo">
+                            <figure><a href="#"><img class="img-responsive" src="{% static 'images/sitelogo.png' %}" alt="Footer logo" /></a></figure>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-md hidden-lg hidden-xs">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-tumblr hvr-wobble-top"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 footer-menu">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>about</span>
+                                    <ul>
+                                        <li><a href="#">about us</a></li>
+                                        <li><a href="#">contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>press</span>
+                                    <ul>
+                                        <li><a href="#">press release</a></li>
+                                        <li><a href="#">media</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>company</span>
+                                    <ul>
+                                        <li><a href="#">team</a></li>
+                                        <li><a href="#">board</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xs-12 col-sm-3 footer-links-col">
+                                    <span>term</span>
+                                    <ul>
+                                        <li><a href="#">privacy</a></li>
+                                        <li><a href="#">about cookies</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 footer-social-links pull-right hidden-sm">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-facebook hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram hvr-wobble-top"></i></a></li>
+                                <li><a href="#"><i class="fa fa-tumblr hvr-wobble-top"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-footer">
+                <div class="container">
+                    <div class="copyright-text text-center">&copy; 2020-2026 DietFest, Inc. ALL RIGHT RESERVED.</div>
+                </div>
+            </div>
+        </footer>
+        <!-- ============== footer block ends ============== -->
+    </div>
+{% endblock body %}
